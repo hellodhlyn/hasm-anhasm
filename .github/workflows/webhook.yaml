@@ -3,8 +3,8 @@ name: Execute a webhook
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'   # Every 9 AM KST
-    - cron: '0 12 * * *'  # Every 9 PM KST
+    - cron: '0 23 * * *'  # Every 8 AM KST
+    - cron: '0 11 * * *'  # Every 8 PM KST
 
 jobs:
   webhook:
